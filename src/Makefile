@@ -1,9 +1,9 @@
-PREFIX   := /usr/local
+PREFIX   := /opt/fachoda-complex
 BINDIR   := $(PREFIX)/games
 DATADIR  := $(PREFIX)/lib/games/fachoda
 DOCDIR   := $(PREFIX)/share/doc/fachoda
 CFLAGS   := $(CFLAGS) -std=c99 -W -Wall -D_GNU_SOURCE ${shell sdl-config --cflags} -DDATADIR='"$(DATADIR)"'
-#CFLAGS += -O3 -ffast-math -funroll-loops
+CFLAGS += -O3 -ffast-math -funroll-loops
 LDFLAGS  := $(LDFLAGS) -lm -ljpeg -lopenal ${shell sdl-config --libs}
 
 SRCS = \
