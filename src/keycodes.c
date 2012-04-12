@@ -27,56 +27,56 @@
 #include "proto.h"
 
 struct kc gkeys[NBKEYS] = {
-    { SDLK_ESCAPE, "Quit" },
+    { SDLK_BACKSPACE, "Quit" },
     { SDLK_y, "Yes" },
     { SDLK_n, "No" },
 
-    { SDLK_EQUALS, "Motor +5%" },
-    { SDLK_MINUS, "Motor -5%" },
+    { SDLK_w, "Motor +5%" },
+    { SDLK_e, "Motor -5%" },
 
-    { SDLK_F5, "External views" },
-    { SDLK_F6, "Travelling view" },
-    { SDLK_F4, "Internal views" },
-    { SDLK_F7, "Zoom out" },
-    { SDLK_F8, "Zoom in" },
-    { SDLK_F2, "View next plane" },
-    { SDLK_F3, "View previous plane" },
-    { SDLK_F1, "View your plane or closest ennemy" },
+    { SDLK_r, "External views" },
+    { SDLK_t, "Travelling view" },
+    { SDLK_y, "Internal views" },
+    { SDLK_F1, "Zoom out" }, // in external views
+    { SDLK_F2, "Zoom in" },  // in external views
+    { SDLK_o, "View next plane" },
+    { SDLK_p, "View previous plane" },
+    { SDLK_s, "View your plane or closest ennemy" },
     { SDLK_m, "View next bomb" },
-    { SDLK_UP, "Rise your head" },
-    { SDLK_DOWN, "Lower your head" },
+    { SDLK_a, "Rise your head" },
+    { SDLK_z, "Lower your head" },
     { SDLK_LEFT, "Turn left your head" },
     { SDLK_RIGHT, "Turn right your head" },
-    { SDLK_HOME, "Look ahead" },
-    { SDLK_END, "Look backward" },
-    { SDLK_DELETE, "Look at left" },
-    { SDLK_PAGEDOWN, "Look at right" },
-    { SDLK_PAGEUP, "Look up" },
-    { SDLK_INSERT, "Look at the instrument panel" },
+    { SDLK_d, "Look ahead" },
+    { SDLK_x, "Look backward" },
+    { SDLK_F3, "Look at left" }, //almost same than turn left
+    { SDLK_F4, "Look at right" }, //almost same than turn right
+    { SDLK_F5, "Look up" },  //almost same than turn up
+    { SDLK_F6, "Look at the instrument panel" },
 
     { SDLK_g, "Gear" },
     { SDLK_f, "Flaps" },
     { SDLK_b, "Brakes" },
-    { SDLK_p, "Autopilot" },
-    { SDLK_F10, "Buy a plane" },
-    { SDLK_KP8, "Nose down" },
-    { SDLK_KP2, "Nose up" },
-    { SDLK_KP4, "Roll left" },
-    { SDLK_KP6, "Roll right" },
-    { SDLK_KP6, "Center stick" },
+    { SDLK_h, "Autopilot" },
+    { SDLK_c, "Buy a plane" },
+    { SDLK_v, "Nose down" },
+    { SDLK_n, "Nose up" },
+    { SDLK_F4, "Roll left" },  //
+    { SDLK_F6, "Roll right" }, //
+    { SDLK_F6, "Center stick" }, //
     { SDLK_SPACE, "Fire" },
-    { SDLK_RCTRL, "Change weapon" },
+    { SDLK_j, "Change weapon" },
 
-    { SDLK_PAUSE, "Pause" },
-    { SDLK_TAB, "See Highscores" },
-    { SDLK_x, "Accelerated mode" },
-    { SDLK_n, "Set navpoint to home base" },
-    { SDLK_F9, "Map mode" },
-    { SDLK_F12, "Suicide" },
-    { SDLK_c, "Flag the map at plane's position" },
+    { SDLK_q, "Pause" }, //
+    { SDLK_F1, "See Highscores" }, //not so important
+    { SDLK_F8, "Accelerated mode" }, //not so important
+    { SDLK_F9, "Set navpoint to home base" }, //
+    { SDLK_k, "Map mode" }, //
+    { SDLK_F9, "Suicide" }, //not so important
+    { SDLK_l, "Flag the map at plane's position" },//
 
-    { SDLK_h, "Emergency UP! (...?)" },
-    { SDLK_j, "Gun this plane (...?)" }
+    { SDLK_F8, "Emergency UP! (...?)" }, //
+    { SDLK_F7, "Gun this plane (...?)" }//
 };
 
 static FILE *keyfile_open(char const *perms)
