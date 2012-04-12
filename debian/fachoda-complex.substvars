@@ -1,0 +1,1 @@
+shlibs:Depends=libc6 (>= 2.5.0-1), libgcc1, libjpeg62, libopenal1, libsdl1.2 (>= 1.2.10-1)
