@@ -1,3 +1,9 @@
+fachoda-complex (2.1-maemo2) unstable; urgency=low
+
+   * Keys configured for N900
+
+ -- Aapo Rantalainen <aapo.rantalainen@gmail.com>  Mon, 10 Jun 2013 21:50:40 +0200
+
 fachoda-complex (2.1-maemo1) unstable; urgency=low
 
    * Initial Fremantle packing
