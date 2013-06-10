@@ -8,49 +8,49 @@
 # that comes.with fachoda.
 #
 
-key_quit = escape               # Quit
+key_quit = backspace            # Quit
 key_yes = y                     # Yes
 key_no = n                      # No
-key_throttle_more = =           # Motor +5%
-key_throttle_less = -           # Motor -5%
-key_view_external = f5          # External views
-key_view_still = f6             # Travelling view
-key_view_internal = f4          # Internal views
-key_zoom_out = f7               # Zoom out
-key_zoom_in = f8                # Zoom in
-key_view_next = f2              # View next plane
-key_view_previous = f3          # View previous plane
-key_view_self = f1              # View your plane or closest ennemy
-key_view_map = f9               # Map mode
-key_look_raise = up             # Rise your head
-key_look_lower = down           # Lower your head
+key_throttle_more = w           # Motor +5%
+key_throttle_less = e           # Motor -5%
+key_view_external = r           # External views
+key_view_still = t              # Travelling view
+key_view_internal = y           # Internal views
+key_zoom_out = u                # Zoom out
+key_zoom_in = i                 # Zoom in
+key_view_next = o               # View next plane
+key_view_previous = p           # View previous plane
+key_view_self = s               # View your plane or closest ennemy
+key_view_map = k                # Map mode
+key_look_raise = a              # Rise your head
+key_look_lower = z              # Lower your head
 key_look_left = left            # Turn left your head
 key_look_right = right          # Turn right your head
-key_look_ahead = home           # Look ahead
-key_look_back = end             # Look backward
-key_look_at_left = delete       # Look at left
-key_look_at_right = page down   # Look at right
-key_look_up = page up           # Look up
-key_look_panel = insert         # Look at the instrument panel
+key_look_ahead = d              # Look ahead
+key_look_back = x               # Look backward
+key_look_at_left = [1]          # Look at left
+key_look_at_right = [2]         # Look at right
+key_look_up = [3]               # Look up
+key_look_panel = [4]            # Look at the instrument panel
 key_gears = g                   # Gear
 key_flaps = f                   # Flaps
 key_brakes = b                  # Brakes
-key_autopilot = p               # Autopilot
-key_buy = f10                   # Buy a plane
-key_pause = pause               # Pause
-key_scores = tab                # See Highscores
-key_acceleration = x            # Accelerated mode
-key_navpoint_to_base = n        # Set navpoint to home base
-key_suicide = f12               # Suicide
-key_flag_map = c                # Flag the map at plane's position
+key_autopilot = h               # Autopilot
+key_buy = c                     # Buy a plane
+key_pause = q                   # Pause
+key_scores = alt gr             # See Highscores
+key_acceleration = [5]          # Accelerated mode
+key_navpoint_to_base = j        # Set navpoint to home base
+key_suicide = [6]               # Suicide
+key_flag_map = l                # Flag the map at plane's position
 
 # These keys are only used when in keyboard control
 
-key_nose_down = [8]             # Nose down
-key_nose_up = [2]               # Nose up
-key_roll_left = [4]             # Roll left
-key_roll_right = [6]            # Roll right
-key_center_stick = [6]          # Center stick
+key_nose_down = v               # Nose down
+key_nose_up = n                 # Nose up
+key_roll_left = left shift      # Roll left
+key_roll_right = m              # Roll right
+key_center_stick = [7]          # Center stick
 key_shoot = space               # Fire
-key_alt_weapon = right ctrl     # Change weapon
+key_alt_weapon = left ctrl      # Change weapon
 
